@@ -11,12 +11,16 @@
     <body>
         <div class="mainPage"> 
             <h1 style="text-align: center">bookbuds !</h1>
-            <button class= "scrollDownBtn" onClick="scrollDown(document.getElementById('productPage'))">
-                <img src="/images/flower.png" alt="Flower"/>
+            <button class= "scrollDownBtn" id="scrollDownBtn">
+                <img src="/images/flower.png"/>
             </button> 
         </div>
         <div class="productPage" id="productPage">
-
+            <div class="products" id="products">
+                <button class="markBtn">
+                    <img src="/images/mark.jpg"/>
+                </button>
+            </div>
         </div>
         <script src="script.js"></script>
     </body>
